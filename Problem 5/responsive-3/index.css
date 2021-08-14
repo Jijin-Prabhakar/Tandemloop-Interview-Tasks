@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #adb5bd;
+}
+
+.feature_label {
+  width: 80px;
+  color: white;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(255, 153, 0);
+  padding: 2px 6px 3px 6px;
+  margin: 0px 0px 0px 14px;
+  border-radius: 3px;
+}
+
+.section_2 {
+  margin: 70px 0px 0px 0px !important;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: small;
+}
+
+.card_2,
+.card_3,
+.card_4,
+.card_5 {
+  background: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px;
+}
+
+.fa-envelope-open-text,
+.fa-th-list,
+.fa-user-plus,
+.fa-cloud-upload-alt {
+  margin: 0px 0px 0px 14px;
+  padding: 10px;
+  color: blue;
+  background: rgb(225, 238, 251);
+  border-radius: 20px;
+}

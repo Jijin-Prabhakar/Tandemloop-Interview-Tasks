@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-y: hidden;
+}
+
+.top_head {
+  background-color: violet;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.child_body {
+  margin-bottom: 150px;
+}
+
+.child_body_left {
+  background-color: skyblue;
+  height: 30px;
+}
+
+.child_body_right {
+  background-color: skyblue;
+  height: 80vh;
+}
+
+hr{
+  margin: 0 !important; 
+  border: 0 !important;
+  border-top: 5px solid white !important;
+  background-color: white" 
+}
+
+.bottom_foot {
+  background-color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}

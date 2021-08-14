@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #adb5bd;
+}
+
+.insight_img {
+  width: 100%;
+}
+
+/* Section 2 */
+.visualization_label {
+  width: 80px;
+  color: white;
+  font-size: x-small;
+  font-weight: bolder;
+  text-align: center;
+  background: rgb(78, 209, 153);
+  padding: 2px 6px 2px 6px;
+  margin: 0px 0px 0px 16px;
+  border-radius: 4px;
+}
+
+.visual_title {
+  font-weight: bolder;
+}
+
+.list_head {
+  font-weight: bolder;
+}
+
+.fa-chart-bar,
+.fa-check-square,
+.fa-file-alt,
+.fa-chart-line {
+  font-size: 25px;
+}

@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #adb5bd;
+}
+
+/* Top */
+.pricing_label {
+  color: white;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(78, 209, 153);
+  padding: 2px 6px 3px 6px;
+  border-radius: 4px;
+}
+
+.head_text {
+  font-weight: bolder;
+}
+
+.text {
+  font-size: larger;
+  align-items: center;
+}
+
+/* Card 1 */
+.fa-hand-holding-water {
+  margin: 0px 0px 0px 14px;
+  padding: 10px;
+  color: blue;
+  background: rgb(225, 238, 251);
+  border-radius: 20px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+/* Button */
+.learn_more_btn {
+  font-size: small !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+  margin: 15px 0px 0px 0px !important;
+}
+
+/* Card 2 */
+.second_card_label {
+  width: 50px;
+  color: white;
+  font-size: x-small;
+  font-weight: bold;
+  background: blue;
+  padding: 2px 0px 2px 0px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0px 0px 0px 16px;
+}
+
+.free {
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 0px 0px 0px 16px;
+}
+
+.fa-file-alt {
+  color: blue;
+  background: rgb(225, 238, 251);
+  padding: 2px;
+}
+
+.fa-bars {
+  color: blue;
+  background: rgb(225, 238, 251);
+  padding: 2px;
+}
+
+.circle-lock {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  background: rgb(225, 238, 251);
+}
+
+.card_2 {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px;
+}
+
+/* Button */
+.create_acct_btn {
+  font-size: small !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+  margin: 20px 0px 0px 20px !important;
+  background-color: rgb(225, 238, 251) !important;
+}
+
+/* Card 3 */
+.third_card_label {
+  width: 60px;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  background: white;
+  padding: 4px 2px 4px 2px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0px 0px 0px 16px;
+}
+
+.card_line_3 {
+  font-size: small;
+  margin-left: 16px;
+  font-weight: bolder;
+}
+
+.third_card-text {
+  font-weight: bolder;
+}
+
+/* Button */
+.explore_btn {
+  font-size: small !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+  margin: 40px 0px 0px 40px !important;
+  background-color: rgb(73, 78, 84) !important;
+}

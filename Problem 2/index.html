@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .output {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="output">
+      <h1>The output for given number = [<span id="oddnumbers"></span>]</h1>
+    </div>
+
+    <script>
+      let n = prompt("Enter a number");
+      let result = [];
+      function oddNumbers(count) {
+        if (count % 2 == 0) {
+          for (let i = 1; i < n++; i += 2) {
+            result.push(i);
+          }
+        } else {
+          for (let i = 1; i < n * 2; i += 2) {
+            result.push(i);
+          }
+        }
+        return result;
+      }
+
+      let odd = oddNumbers(n);
+      document.getElementById("oddnumbers").innerHTML = odd;
+    </script>
+  </body>
+</html>

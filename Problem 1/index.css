@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.head {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.calc_body {
+  margin: 30px 450px 50px 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+#screen {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 340px;
+  height: 40px;
+  pointer-events: none;
+}
+
+.row button {
+  width: 72px;
+  height: 30px;
+  margin: 0px 5px 30px 5px;
+}

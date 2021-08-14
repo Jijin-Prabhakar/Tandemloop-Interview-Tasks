@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1 class="head">CALCULATOR</h1>
+    <div class="calc_body">
+      <div>
+        <input type="text" id="screen" />
+        <div class="row">
+          <button onclick="displayClear()">C</button>
+          <button onclick="clearSingle()">Del</button>
+        </div>
+        <div class="row">
+          <button onclick="BtnClick(7)">7</button>
+          <button onclick="BtnClick(8)">8</button>
+          <button onclick="BtnClick(9)">9</button>
+          <button onclick="BtnClick('+')">+</button>
+        </div>
+        <div class="row">
+          <button onclick="BtnClick(4)">4</button>
+          <button onclick="BtnClick(5)">5</button>
+          <button onclick="BtnClick(6)">6</button>
+          <button onclick="BtnClick('-')">-</button>
+        </div>
+        <div class="row">
+          <button onclick="BtnClick(1)">1</button>
+          <button onclick="BtnClick(2)">2</button>
+          <button onclick="BtnClick(3)">3</button>
+          <button onclick="BtnClick('*')">x</button>
+        </div>
+        <div class="row">
+          <button onclick="BtnClick('.')">.</button>
+          <button onclick="BtnClick(0)">0</button>
+          <button onclick="BtnClick('/')">/</button>
+          <button onclick="result('=')">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
